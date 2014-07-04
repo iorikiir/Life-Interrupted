@@ -102,47 +102,6 @@ textarea {
    ========================================================================== */
 
 
-.photo {
-  text-align: center;
-}
- 
-.player-play, .player-stop {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  float: left;
-}
- 
-.player-play {
-  background-image: url('../img/play.png');
-  float: right;
-}
-
-.player-play:hover {
-  background-image: url('../img/play-hover.png');
-}
-
-.player-stop {
-  background-image: url('../img/pause.png');
-  display: none;
-  float: right;
-}
-
-.player-stop:hover {
-  display: none;
-  background-image: url('../img/pause-hover.png');
-}
- 
-#time-slider {
-  display: none;
-}
- 
-div.ui-slider-track {
-  margin: 0;
-  width: 100%;
-}
-
-
 #container {
 	width: 100%;
 	height: 100% !important;
@@ -155,7 +114,6 @@ div.ui-slider-track {
 #main {
 	width: 100%;
 	height: 100%;
-	margin-top: 86px;	
 }
 
 #header {
@@ -232,7 +190,7 @@ div.ui-slider-track {
 
 .container-center .image-container {
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .container-center .button-container {
@@ -240,9 +198,10 @@ div.ui-slider-track {
 }
 
 .column-container {
-	width: 90%;
+	width: 25%;
 	margin-left: auto;
 	margin-right: auto;
+	float: left;
 }
 
 .column-content {
